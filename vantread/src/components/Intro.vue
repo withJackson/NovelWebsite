@@ -12,6 +12,7 @@
         style="color: #000;"
       />
 
+
       <div class="novelblock">
         <div class="content">
           <div class="leftimg" :style = '{ backgroundImage : "url("+content.headimg +")"}'></div>
@@ -51,8 +52,6 @@
       <van-button plain type="primary" size="large" v-if="content.chapternum>5"  @click="routerchapter">查看更多</van-button>
 
     </van-skeleton>
-
-
 
 
   </div>
