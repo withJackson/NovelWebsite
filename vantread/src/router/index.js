@@ -11,6 +11,8 @@ import Chapter from '@/components/Chapter'
 
 Vue.use(Router)
 
+
+
 export default new Router({
   routes: [
     {
